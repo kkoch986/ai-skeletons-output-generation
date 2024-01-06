@@ -1,0 +1,9 @@
+services:
+  server:
+    image: kkoch986/ai-skeletons-output-generation
+    ports:
+      - "3000:8080"
+    environment:
+      LOG_LEVEL: DEBUG
+      HOST: 
+      PORT: 8080
